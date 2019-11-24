@@ -18,7 +18,7 @@ public class Perguntas {
 	
 	public int JogarNovamente() {
 		String[] opt1 = { "sair", "Novamente", };
-		return JOptionPane.showOptionDialog(null, "Voce quer jogar Novamente", "OPÇOES",
+		return JOptionPane.showOptionDialog(null, "Voce quer jogar Novamente ?", "OPÇOES",
 				JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, opt1, opt1[0]);
 	}
 		

@@ -5,7 +5,6 @@ import java.net.MalformedURLException;
 
 import javax.swing.JOptionPane;
 
-import com.pokedex.PokeBusca;
 
 public class Main {
 
@@ -14,7 +13,6 @@ public class Main {
 			
 	
 		
-	PokeBusca buscaIcone = new PokeBusca();
 
 		Perguntas Pergunta = new Perguntas();
 		pokemon dados = new pokemon ();
@@ -117,6 +115,7 @@ public class Main {
 						
 						JOptionPane.showMessageDialog(null,pokedados[dados.getPokeCodigoPesquisa()].getNome()+"\n"+pokedados[dados.getPokeCodigoPesquisa()].getIdade()+"\n"+pokedados[dados.getPokeCodigoPesquisa()].getPeso(),"Título da Janela", JOptionPane.WARNING_MESSAGE);
 					}
+					
 	
 				break;
 	
